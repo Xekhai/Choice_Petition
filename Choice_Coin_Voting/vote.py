@@ -29,9 +29,9 @@ algod_token = "iSusnJg4L15ucSz2c73tq3HS5hitxZY71ye84MVh"
 headers = {"X-API-Key": algod_token}
 algod_client = algod.AlgodClient(algod_token, algod_address, headers)
 escrow_address = "HSN2JCICFMCB2XX3PP5L2DSHZDXEJSXL2UHVWRIZQSD6WDX5IBGAZRVRAY"
-escrow_mnemonic = "clutch force volume chicken other double choose intact bounce elbow viable make horn upgrade hope neutral ladder core police scout foam damp buddy able adjust"
+escrow_mnemonic = ""
 fund_address = "WHNTB5KQTGKBQSZAJ5VX745SGYJTCKSQ2PX7KA3MVCXV7FNAEGLIGOKOZE"
-fund_mnemonic = "foam fault power empty bulb usage round guard evoke city wish screen logic express assume extra copper kind prize table math wheat bargain absorb like"
+fund_mnemonic = ""
 choice_id = 17264161
 fund_key = mnemonic.to_private_key(fund_mnemonic)
   # Put in main fund receiver_mnemonic here
